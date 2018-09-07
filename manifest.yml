@@ -4,6 +4,6 @@ applications:
   path: build/libs/pal-tracker-jenkins-poc.jar
   memory: 1G
   routes:
-  - route: team-ginger-pal-tracker-jenkins-poc.cfapps.io
+  - route: jenkins-config-pal-tracker-jenkins-poc.cfapps.io
   env:
     WELCOME_MESSAGE: Hello from PCF -- the jenkins poc setup environment is up and running
